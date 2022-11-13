@@ -1,5 +1,5 @@
 ---
-slug: /reference/oauth2/v1 
+slug: /reference/oauth2/v1
 title: OAuth2 v1
 ---
 
@@ -417,19 +417,19 @@ Form パラメータ
 }
 ```
 
-|パラメータ名|説明| 
-|:--|:--| 
-|error|**String** <br/> エラーの際に使用するエラーコード。| 
+|パラメータ名|説明|
+|:--|:--|
+|error|**String** <br/> エラーの際に使用するエラーコード。|
 |error_description|**String** <br/> エラーの際、どのような問題が発生しているか、具体的に記述したメッセージ。|
 
 返答するエラーコードは以下の通りです。
 
-|エラーコード|説明| 
-|:--|:--| 
-|invalid_request|リクエストされたパラメーターが足りないか、パラメータの値が正しくありません。| 
-|invalid_client|リクエストされた`client_id`が見つかりません。| 
+|エラーコード|説明|
+|:--|:--|
+|invalid_request|リクエストされたパラメーターが足りないか、パラメータの値が正しくありません。|
+|invalid_client|リクエストされた`client_id`が見つかりません。|
 |unauthorized_client|クライアントは指定された方法で取得することが許可されていません、。|
-|unsupported_grant_type|認可サーバーは、リクエストされた`grant_type`をサポートしていません。| 
+|unsupported_grant_type|認可サーバーは、リクエストされた`grant_type`をサポートしていません。|
 |server_error|内部エラーにより処理できません。|
 
 ## トークンの失効
